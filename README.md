@@ -1,9 +1,10 @@
 # Shadcn-UI Template Usage Instructions
 
-## technology stack
+## Live Demo
+🚀 [View Live Demo](https://aquamarine-kataifi-f6496e.netlify.app/)
 
+## Technology Stack
 This project is built with:
-
 - Vite
 - TypeScript
 - React
@@ -13,7 +14,6 @@ This project is built with:
 All shadcn/ui components have been downloaded under `@/components/ui`.
 
 ## File Structure
-
 - `index.html` - HTML entry point
 - `vite.config.ts` - Vite configuration file
 - `tailwind.config.js` - Tailwind CSS configuration file
@@ -23,39 +23,32 @@ All shadcn/ui components have been downloaded under `@/components/ui`.
 - `src/index.css` - Existing CSS configuration
 
 ## Components
-
 - All shadcn/ui components are pre-downloaded and available at `@/components/ui`
 
 ## Styling
-
 - Add global styles to `src/index.css` or create new CSS files as needed
 - Use Tailwind classes for styling components
 
 ## Development
-
 - Import components from `@/components/ui` in your React components
 - Customize the UI by modifying the Tailwind configuration
 
 ## Note
-
 The `@/` path alias points to the `src/` directory
 
 # Commands
 
 **Install Dependencies**
-
 ```shell
 pnpm i
 ```
 
 **Start Preview**
-
 ```shell
 pnpm run dev
 ```
 
-**To build**
-
+**To Build**
 ```shell
 pnpm run build
 ```
